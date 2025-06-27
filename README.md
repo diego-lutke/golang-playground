@@ -14,3 +14,6 @@ everything in here is based on the material available in
 
 ## go packages
 [https://pkg.go.dev/](https://pkg.go.dev/)
+
+## go docs
+`go install golang.org/x/tools/cmd/godoc@latest`
