@@ -38,4 +38,14 @@ func main() {
 	slicedString := stringForSlicing[7:15]
 
 	fmt.Println("Sliced String:", slicedString)
+
+	// String Formatting
+	name := "Alice"
+	age := 25
+
+	// The fmt.Sprintf function is used for string formatting.
+	// It returns a formatted string without printing it to the console.
+	message := fmt.Sprintf("Name: %s, Age: %d", name, age)
+
+	fmt.Println(message)
 }
