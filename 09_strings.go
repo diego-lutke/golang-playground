@@ -1,4 +1,4 @@
-// code source: https://withcodeexample.com/golang-tutorial-for-beginners/
+// adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
 package main
 
 import "fmt"
@@ -19,9 +19,7 @@ func main() {
 	// Concatenating strings
 	firstName := "John"
 	lastName := "Doe"
-
 	fullName := firstName + " " + lastName
-
 	fmt.Println("Full Name:", fullName)
 
 	// Indexing and Slicing
@@ -31,12 +29,10 @@ func main() {
 
 	// Accessing individual characters (byte-wise)
 	firstChar := stringForSlicing[0]
-
 	fmt.Println("First Character:", string(firstChar))
 
 	// Slicing a string
 	slicedString := stringForSlicing[7:15]
-
 	fmt.Println("Sliced String:", slicedString)
 
 	// String Formatting
@@ -46,6 +42,12 @@ func main() {
 	// The fmt.Sprintf function is used for string formatting.
 	// It returns a formatted string without printing it to the console.
 	message := fmt.Sprintf("Name: %s, Age: %d", name, age)
-
 	fmt.Println(message)
+
+	// Go has excellent support for Unicode characters in strings,
+	// allowing you to work with a wide range of international characters.
+	// The Japanese phrase “Hello, World!” is represented by Unicode
+	// characters in the given string.
+	unicodeString := "こんにちは, 世界!" // Hello, World! in Japanese
+	fmt.Println(unicodeString)
 }

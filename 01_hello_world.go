@@ -1,8 +1,8 @@
-// A "Hello World" program that prints a greeting with the current time.
 package main
 
 import (
 	"fmt"
+	"rsc.io/quote"
 	"time"
 )
 
@@ -12,5 +12,7 @@ func greeting() string {
 }
 
 func main() {
+	fmt.Println("Hello, World!")
+	fmt.Println(quote.Go())
 	fmt.Println(greeting())
 }
