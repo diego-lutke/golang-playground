@@ -50,8 +50,16 @@ func main() {
 	var zeroFloat float64
 	var zeroString string
 	var zeroBool bool
+	var zeroArray [5]int
+	var zeroArrayMatrix [3][3]int
+	var zeroSlice []int
+	var zeroMap map[string]string
 	fmt.Printf("Zero int: %d\n", zeroInt)
 	fmt.Printf("Zero float: %f\n", zeroFloat)
 	fmt.Printf("Zero string: %s\n", zeroString)
 	fmt.Printf("Zero bool: %t\n", zeroBool)
+	fmt.Println("Zero array:", zeroArray)
+	fmt.Println("Zero array (2d):", zeroArrayMatrix)
+	fmt.Println("Zero slice:", zeroSlice)
+	fmt.Println("Zero map:", zeroMap)
 }
