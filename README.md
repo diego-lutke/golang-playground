@@ -1,44 +1,50 @@
 # golang-playground
 
-Repo for the author to play with golang for the first time,
-everything in here is based on the material available in
-[https://golang-for-python-programmers.readthedocs.io/en/latest/index.html](https://golang-for-python-programmers.readthedocs.io/en/latest/index.html)
+Repo for the author to play with golang for the first time.
 
-## go installation
-`sudo apt install gcc libc6-dev mercurial`
+## how to get starting
 
-[https://go.dev/doc/install](https://go.dev/doc/install)
+[official installation reference](https://go.dev/doc/install)
 
-## version
-`go version`
+- requirements
+  `sudo apt install gcc libc6-dev mercurial`
 
-## go hello world
-[https://go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started)
+- docs
+  `go install golang.org/x/tools/cmd/godoc@latest`
 
-## go packages
-[https://pkg.go.dev/](https://pkg.go.dev/)
+- version
+  `go version`
 
-## go docs
-`go install golang.org/x/tools/cmd/godoc@latest`
+- environment variables
+  `export GOPATH=~/go`
+  `export PATH=$PATH:$GOPATH/bin`
 
-## environment variables
-`export GOPATH=~/go`
-`export PATH=$PATH:$GOPATH/bin`
+## cool resources
 
-## workspace preparation
+- [hello world](https://go.dev/doc/tutorial/getting-started)
+- [tour](https://go.dev/tour/list)
+- [packages](https://pkg.go.dev/)
+- [playground](https://go.dev/play/)
+- [project layouts](https://github.com/golang-standards/project-layout)
 
-Create a directory for your Go project inside the src directory:
-`mkdir -p ~/go/src/github.com/yourusername/yourproject`
+## workspace template
 
-In your repo root directory, make a new file called `go.mod` (this file manages
-the project dependencies). In the repo folter, run:
-`go mod init example.com/myproject`
+- Create a directory for your Go project inside the src directory:
+  `mkdir -p ~/go/src/github.com/yourusername/yourproject`
 
-## indentation
-The recommended indentation is to use tabs instead of spaces.
+- In your repo root directory, make a new file called `go.mod` (this file manages
+  the project dependencies). In the repo folter, run:
+  `go mod init example.com/myproject`
 
-## formatter
-`gofmt -w <filename>.go  # -w option updates the file(s) in place`
+## basic usage
 
-## running a file
-e.g.: `go run 01_hello.go`
+- running a file
+  `go run <filename>.go`
+
+- formatting a file
+  `gofmt -w <filename>.go  # -w option updates the file(s) in place`
+
+## general notes
+
+- The recommended indentation is to use tabs instead of spaces.
+- Go is a strongly typed static programming language.
