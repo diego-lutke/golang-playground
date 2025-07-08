@@ -54,6 +54,7 @@ func main() {
 	var zeroArrayMatrix [3][3]int
 	var zeroSlice []int
 	var zeroMap map[string]string
+	var zeroPointer *int
 	fmt.Printf("Zero int: %d\n", zeroInt)
 	fmt.Printf("Zero float: %f\n", zeroFloat)
 	fmt.Printf("Zero string: %s\n", zeroString)
@@ -62,4 +63,5 @@ func main() {
 	fmt.Println("Zero array (2d):", zeroArrayMatrix)
 	fmt.Println("Zero slice:", zeroSlice)
 	fmt.Println("Zero map:", zeroMap)
+	fmt.Println("Zero pointer:", zeroPointer)
 }
