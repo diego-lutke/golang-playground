@@ -19,15 +19,7 @@ Repo for the author to play with golang for the first time.
   `export GOPATH=~/go`
   `export PATH=$PATH:$GOPATH/bin`
 
-## cool resources
-
-- [hello world](https://go.dev/doc/tutorial/getting-started)
-- [tour](https://go.dev/tour/list)
-- [packages](https://pkg.go.dev/)
-- [playground](https://go.dev/play/)
-- [project layouts](https://github.com/golang-standards/project-layout)
-
-## workspace template
+## workspace preparation
 
 - Create a directory for your Go project inside the src directory:
   `mkdir -p ~/go/src/github.com/yourusername/yourproject`
@@ -43,6 +35,15 @@ Repo for the author to play with golang for the first time.
 
 - formatting a file
   `gofmt -w <filename>.go  # -w option updates the file(s) in place`
+
+## cool resources
+
+- [hello world](https://go.dev/doc/tutorial/getting-started)
+- [tour](https://go.dev/tour/list)
+- [packages](https://pkg.go.dev/)
+- [playground](https://go.dev/play/)
+- [project layouts - official](https://go.dev/doc/modules/layout)
+- [project layouts - unofficial](https://github.com/golang-standards/project-layout)
 
 ## general notes
 
