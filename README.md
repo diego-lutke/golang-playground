@@ -6,6 +6,15 @@ Repo for the author to play with golang for the first time.
 
 [official installation reference](https://go.dev/doc/install)
 
+- go tarball
+`curl -L -O https://go.dev/dl/go1.24.5.linux-amd64.tar.gz`
+
+- remove previous installations
+`rm -rf /usr/local/go`
+
+- extract the tarball into `usr/local`
+`sudo tar -C /usr/local -xzf go1.24.5.linux-amd64.tar.gz`
+
 - requirements
   `sudo apt install gcc libc6-dev mercurial`
 
@@ -16,6 +25,7 @@ Repo for the author to play with golang for the first time.
   `go version`
 
 - environment variables
+  `export PATH=$PATH:/usr/local/go/bin`
   `export GOPATH=~/go`
   `export PATH=$PATH:$GOPATH/bin`
 
