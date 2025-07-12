@@ -49,6 +49,9 @@ Repo for the author to play with golang for the first time.
 - installing a package
   `go get github.com/onsi/gomega/...`
 
+- cleaning and updating go.mod/go.sum to reflect required dependencies
+  `go mod tidy`
+
 ## cool resources
 
 - [hello world](https://go.dev/doc/tutorial/getting-started)
