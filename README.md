@@ -7,13 +7,13 @@ Repo for the author to play with golang for the first time.
 [official installation reference](https://go.dev/doc/install)
 
 - go tarball
-`curl -L -O https://go.dev/dl/go1.24.5.linux-amd64.tar.gz`
+  `curl -L -O https://go.dev/dl/go1.24.5.linux-amd64.tar.gz`
 
 - remove previous installations
-`rm -rf /usr/local/go`
+  `rm -rf /usr/local/go`
 
 - extract the tarball into `usr/local`
-`sudo tar -C /usr/local -xzf go1.24.5.linux-amd64.tar.gz`
+  `sudo tar -C /usr/local -xzf go1.24.5.linux-amd64.tar.gz`
 
 - requirements
   `sudo apt install gcc libc6-dev mercurial`
@@ -31,20 +31,23 @@ Repo for the author to play with golang for the first time.
 
 ## workspace preparation
 
-- Create a directory for your Go project inside the src directory:
-  `mkdir -p ~/go/src/github.com/yourusername/yourproject`
-
 - In your repo root directory, make a new file called `go.mod` (this file manages
-  the project dependencies). In the repo folter, run:
-  `go mod init example.com/myproject`
+  the project dependencies). In the repo root folter, run:
+  `go mod init github.com/diego-lutke/golang-playground`
 
 ## basic usage
 
 - running a file
   `go run <filename>.go`
 
+- running a project
+  `go run .`
+
 - formatting a file
   `gofmt -w <filename>.go  # -w option updates the file(s) in place`
+
+- installing a package
+  `go get github.com/onsi/gomega/...`
 
 ## cool resources
 
