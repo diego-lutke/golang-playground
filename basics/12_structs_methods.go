@@ -1,5 +1,5 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
@@ -97,7 +97,7 @@ func (c Cat) Speak() string {
 	return "Meow!"
 }
 
-func main() {
+func StructsMethods() {
 	// Creating an instance of the 'Human' struct
 	human := Human{
 		FirstName: "Charlie",

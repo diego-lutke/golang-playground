@@ -1,7 +1,8 @@
-package main
+package basics
 
 import (
 	"fmt"
+	"github.com/enescakir/emoji"
 	"rsc.io/quote"
 	"time"
 )
@@ -11,8 +12,9 @@ func greeting() string {
 	return "Hello world, the time is: " + time.Now().String()
 }
 
-func main() {
+func HelloWorld() {
 	fmt.Println("Hello, World!")
 	fmt.Println(quote.Go())
 	fmt.Println(greeting())
+	fmt.Println(emoji.WavingHand.Tone())
 }

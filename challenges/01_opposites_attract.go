@@ -7,7 +7,7 @@
 // Write a function that will take the number of petals of each flower and
 // return true if they are in love and false if they aren't.
 
-package main
+package challenges
 
 import (
 	"math"
@@ -23,4 +23,8 @@ func LoveFunc(flower1, flower2 int) bool {
 	} else {
 		return false
 	}
+}
+
+func OppositesAttract() {
+	LoveFunc(1, 3)
 }

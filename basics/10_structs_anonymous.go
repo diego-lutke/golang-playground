@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func StructsAnonymous() {
 	// Creating an anonymous struct
 	// Anonymous structs are structs defined without a specified name.
 	// They are useful for creating one-time-use data structures.

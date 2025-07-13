@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Statements() {
 	// Simple if statement
 	age := 25
 	if age >= 18 {

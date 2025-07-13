@@ -1,5 +1,5 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
@@ -14,7 +14,7 @@ type Toy struct {
 	Height float32
 }
 
-func main() {
+func Pointers() {
 	// Declaring a variable and a pointer
 	var value int = 42
 	var pointer *int

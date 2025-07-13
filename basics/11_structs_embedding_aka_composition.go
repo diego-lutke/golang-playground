@@ -1,5 +1,5 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
@@ -20,7 +20,7 @@ type Client struct {
 	Contact   // Embedding the 'Contact' struct
 }
 
-func main() {
+func StructsEmbedding() {
 	// Creating an instance of the 'Client' struct with embedded 'Contact'
 	client := Client{
 		FirstName: "Bob",

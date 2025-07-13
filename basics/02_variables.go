@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Variables() {
 	// Implicit type declaration:
 	// In this example, the type of the variable message is implicitly
 	// inferred from the assigned value, which is a string.

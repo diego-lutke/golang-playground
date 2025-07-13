@@ -1,5 +1,5 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
@@ -49,7 +49,7 @@ func operate(a, b int, operation func(int, int) int) {
 	fmt.Println("Result:", result)
 }
 
-func main() {
+func Functions() {
 	// Calling the 'sayHello' function
 	sayHello()
 

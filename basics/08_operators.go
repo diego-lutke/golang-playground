@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Operators() {
 	// Arithmetic operators
 	a := 10
 	b := 3

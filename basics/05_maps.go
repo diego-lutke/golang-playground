@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Maps() {
 	// Declaration and creation of a map
 	// Declaration of a map with string keys and string values
 	var colors map[string]string

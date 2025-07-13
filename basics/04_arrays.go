@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Arrays() {
 	// Declaration and initialization of an array
 	var numbers [5]int                    // An array of integers with a size of 5
 	numbers = [5]int{1, 2, 3, 4, 5}       // Initializing array elements individually

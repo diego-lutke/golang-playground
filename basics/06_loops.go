@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Loops() {
 	// Basic for loop
 	for i := 0; i < 5; i++ {
 		fmt.Println(i)

@@ -1,9 +1,9 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func Strings() {
 	// Go handles strings as immutable, which means that once a string is formed,
 	// it is impossible to modify its contents.
 

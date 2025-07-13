@@ -1,5 +1,5 @@
 // adapted from: https://withcodeexample.com/golang-tutorial-for-beginners/
-package main
+package basics
 
 import "fmt"
 
@@ -16,7 +16,7 @@ type Person struct {
 	Age       int
 }
 
-func main() {
+func StructsDefining() {
 	// Creating an instance of the 'Person' struct
 	person1 := Person{
 		FirstName: "John",
