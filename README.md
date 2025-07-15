@@ -46,6 +46,8 @@ Repo for the author to play with golang for the first time.
 - cleaning and updating go.mod/go.sum to reflect required dependencies:
   `go mod tidy`
 
+- testing: `go test ./tests/`
+
 ## cool resources
 
 - [hello world](https://go.dev/doc/tutorial/getting-started)

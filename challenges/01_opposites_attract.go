@@ -17,7 +17,7 @@ func LoveFunc(flower1, flower2 int) bool {
 	flower1Mod := math.Mod(float64(flower1), 2)
 	flower2Mod := math.Mod(float64(flower2), 2)
 	if flower1Mod == 0 && flower2Mod == 1 {
-		return true
+		return false
 	} else if flower1Mod == 1 && flower2Mod == 0 {
 		return true
 	} else {
