@@ -12,3 +12,8 @@ func TestLoveFunc(t *testing.T) {
 	assert.Equal(t, true, c.LoveFunc(0, 1))
 	assert.Equal(t, false, c.LoveFunc(0, 0))
 }
+
+func TestBoolToWord(t *testing.T) {
+	assert.Equal(t, "Yes", c.BoolToWord(true))
+	assert.Equal(t, "No", c.BoolToWord(false))
+}
